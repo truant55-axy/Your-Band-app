@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Your Band" />
+    <meta name="theme-color" content="#111827" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="x-ua-compatible" content="IE=edge" />
+    <title>Your Band</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @keyframes gradient-xy {
+        0%, 100% {
+          background-size: 400% 400%;
+          background-position: center top;
+        }
+        50% {
+          background-size: 200% 200%;
+          background-position: center bottom;
+        }
+      }
+      .animate-gradient-xy {
+        animation: gradient-xy 10s ease infinite;
+      }
+      /* Styles for MoodMatch Game */
+      .perspective-1000 { perspective: 1000px; }
+      .transform-style-preserve-3d { transform-style: preserve-3d; }
+      .backface-hidden { backface-visibility: hidden; -webkit-backface-visibility: hidden; }
+      .rotate-y-180 { transform: rotateY(180deg); }
+      
+      /* Mobile optimizations */
+      body {
+        margin: 0;
+        padding: 0;
+        user-select: none;
+        -webkit-user-select: none;
+        -webkit-touch-callout: none;
+      }
+      
+      /* Safe areas for notches and home indicators */
+      .safe-top {
+        padding-top: calc(env(safe-area-inset-top, 0px));
+      }
+      
+      .safe-bottom {
+        padding-bottom: calc(env(safe-area-inset-bottom, 0px));
+      }
+      
+      .safe-left {
+        padding-left: calc(env(safe-area-inset-left, 0px));
+      }
+      
+      .safe-right {
+        padding-right: calc(env(safe-area-inset-right, 0px));
+      }
+      
+      /* Prevent zoom on input focus */
+      input, select, textarea {
+        font-size: 16px;
+      }
+      
+      /* Improve touch responsiveness */
+      * {
+        -webkit-tap-highlight-color: transparent;
+      }
+      
+      button {
+        user-select: none;
+        -webkit-user-select: none;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://cdn.jsdelivr.net/npm/react@19.2.0/dist/react.production.min.js",
+    "react-dom": "https://cdn.jsdelivr.net/npm/react-dom@19.2.0/dist/react-dom.production.min.js"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-gray-900">
+    <div id="root"></div>
+    <script type="module" src="/index.js"></script>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
