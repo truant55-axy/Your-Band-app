@@ -11,25 +11,25 @@ View our live app: https://your-band.netlify.app/
 ## ✨ Key Features
 
 ### ❤️ Intelligent Tracking & Interpretation
-[cite_start]Unlike standard trackers, Your Band interprets raw data into emotional states[cite: 16, 28].
-* [cite_start]**Multimodal Data Analysis:** Monitors heart rate, body temperature, and sleep quality[cite: 29].
-* [cite_start]**Emotion Visualization:** Transforms physiological metrics into understandable emotional insights[cite: 15].
+Unlike standard trackers, Your Band interprets raw data into emotional states.
+* **Multimodal Data Analysis:** Monitors heart rate, body temperature, and sleep quality.
+* **Emotion Visualization:** Transforms physiological metrics into understandable emotional insights.
+* **Deep Analysis:** A dedicated card at the bottom of the dashboard provides detailed text interpretations of your current state, which you can **refresh** anytime for the latest insights.
 
 ### 🤖 Physiologically-Aware AI Companion
-[cite_start]An AI friend that truly understands how you feel, physically and mentally[cite: 44].
-* [cite_start]**Personalized Customization:** Create your unique companion with custom shapes (Squircle, etc.), expressions, and colors[cite: 24, 25].
-* [cite_start]**Proactive Care:** The AI senses your stress levels via your data and offers proactive suggestions and warm, non-robotic companionship[cite: 60].
+An AI friend that truly understands how you feel, physically and mentally.
+* **Personalized Customization:** Create your unique companion with custom shapes (Squircle, etc.), expressions, and colors.
+* **Proactive Care:** The AI senses your stress levels via your data and offers proactive suggestions and warm, non-robotic companionship.
 
 ### 🎮 De-Stress Game Zone
-[cite_start]Three interactive mini-games designed for instant anxiety relief[cite: 33, 39].
-* [cite_start]**Beat the Lemon:** Smash lemons to release tension and negative energy instantly[cite: 34].
-* [cite_start]**Breathing Orb:** Guided deep breathing exercises with haptic feedback to help you find calm[cite: 35].
-* [cite_start]**Mood Match:** A puzzle game to ease anxiety and help you enter a flow state[cite: 36].
+Three interactive mini-games designed for instant anxiety relief.
+* **Beat the Lemon:** Smash lemons to release tension and negative energy instantly.
+* **Breathing Orb:** Guided deep breathing exercises with haptic feedback to help you find calm.
+* **Mood Match:** A puzzle game to ease anxiety and help you enter a flow state.
 
 ### 📊 Deep Analysis Reports
-* [cite_start]**Weekly Emotional Summary:** Generates comprehensive reports analyzing your emotional trends throughout the week[cite: 21, 48].
-* [cite_start]**Actionable Advice:** Provides specific recommendations based on your sleep and stress patterns (e.g., suggesting mindful breaks during high-stress windows)[cite: 21].
-
+* **Weekly Emotional Summary:** Generates comprehensive reports analyzing your emotional trends throughout the week.
+* **Actionable Advice:** Provides specific recommendations based on your sleep and stress patterns (e.g., suggesting mindful breaks during high-stress windows).
 ---
 
 ## 🚀 Run Locally
@@ -46,5 +46,5 @@ View our live app: https://your-band.netlify.app/
 ---
 
 ## 👥 Team
-[cite_start]**Group 8 - Team Happy Soul** [cite: 2, 3]
+**Group 8 - Team Happy Soul** 
 *Focusing on the mental wellness of the 18-25 demographic.*
