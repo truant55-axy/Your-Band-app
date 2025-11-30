@@ -47,4 +47,4 @@ Three interactive mini-games designed for instant anxiety relief.
 
 ## 👥 Team
 **Group 8 - Team Happy Soul** 
-*Focusing on the mental wellness of the 18-25 demographic.*
+*Focusing on the mental wellness of the 12-25 demographic.*
